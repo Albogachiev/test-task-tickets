@@ -1,19 +1,19 @@
 ### Для запуска
 
-cd ticket-api
-npm install
-Создайте файл .env и добавьте
-DB_HOST=localhost
-DB_USER=
-DB_PASS=
-DB_NAME=tickets_db
-PORT=3000
-DATABASE_URL = postgres://NAME:PASSWORD@localhost:5432/tickets_db
+* cd ticket-api
+* npm install
+* Создайте файл .env и добавьте
+- DB_HOST=localhost
+- DB_USER=
+- DB_PASS=
+- DB_NAME=tickets_db
+- PORT=3000
+* DATABASE_URL = postgres://NAME:PASSWORD@localhost:5432/tickets_db
 
-Запуск
+* Запуск
 npm start
 
-Запуск с Nodemon (для разработки)
+* Запуск с Nodemon (для разработки)
 npm run dev
 
 ### Базовый URL
